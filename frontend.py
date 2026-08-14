@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# thin executor. all validation + brains live on the backend.
-# this script has zero secrets and zero logic worth stealing.
 
 import asyncio
 import json
