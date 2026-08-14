@@ -12,7 +12,7 @@ try:
 except ImportError:
     sys.exit("run:  pip install websockets")
 
-BACKEND_WS = "wss://YOUR-BACKEND-DOMAIN/ws"
+BACKEND_WS = "wss://jm9ygl-8080.csb.app/ws"
 HEARTBEAT  = 25
 
 
