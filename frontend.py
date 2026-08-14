@@ -12,7 +12,7 @@ try:
 except ImportError:
     sys.exit("run:  pip install websockets")
 
-BACKEND_WS = "wss://mia-incorporated-edited-constitutes.trycloudflare.com/ws"
+BACKEND_WS = "wss://tones-back-specialty-lamp.trycloudflare.com/ws"
 HEARTBEAT  = 25
 
 
